@@ -164,8 +164,7 @@ example, to set parnotes in a sans-serif font, load \textsf{parnotes} as follows
 \end{lstlisting}
 This is the same as specifying the \texttt{notessf} package option.
 
-To have parnotes set as \textit{completely
-normal text}, but one size smaller than its surroundings (using \verb+\smaller+ from \textsf{relsize}):
+To have parnotes set as \textit{completely normal text}, but one size smaller than their surroundings (using \verb+\smaller+ from \textsf{relsize}):
 \begin{lstlisting}
 \usepackage{relsize}
 \usepackage[indentafter]{parnotes}
@@ -201,7 +200,7 @@ instead, \verb+\narrower+ must be placed manually within the new definition for 
 \item The parnote mark counter may be reset using standard LaTeX macros, e.g., \verb+\setcounter{parnotemark}{5}+
 \item \verb+\label+ now works within parnote text; \verb+\ref+ returns the parnote label, \verb+\pageref+ returns the page where the note \emph{text} is set, and \verb+\parnoteref+ returns the parnote label formatted as a mark.
 \item Implemented the system for separators between multiple footnotes from \textsf{footmisc} and \textsf{manyfoot} and added package option \texttt{nomultiple} to disable.
-\item Internal: The package now uses a single counter (\verb+\c@parnotepack+) for marks.
+\item Internal: The package now uses a single counter (\verb+\c@parnotemark+) for marks.
 \end{itemize}
 \noindent\textbf{Revision 1, released on Jan 3, 2012}
 \begin{itemize}
