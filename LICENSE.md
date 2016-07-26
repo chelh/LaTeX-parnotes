@@ -2,7 +2,7 @@ Copyright (c) 2016 Chelsea Hughes
 
 This work is distributed under the LaTeX Project Public License, version 1.3 or later, available at http://www.latex-project.org/lppl.txt
 
-I currently maintain this project (comprising `parnotes.sty`, `parnotes.tex`, and the derived file `parnotes.pdf`) and will receive error reports at the project GitHub page, https://github.com/chelh/LaTeX-parnotes
+I currently maintain this project (comprising `parnotes.sty`, `parnotes.tex`, `README.md`, and the derived file `parnotes.pdf`) and will receive error reports at the project GitHub page, https://github.com/chelh/LaTeX-parnotes
 
 This package was started due to a question at the TeX Stack Exchange: http://tex.stackexchange.com/questions/34746/
 
