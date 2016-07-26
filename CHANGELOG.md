@@ -7,7 +7,7 @@
     * It no longer inserts `\unskip`.
  * The parnote mark counter may be reset using standard LaTeX macros, e.g., `\setcounter{parnotemark}{5}`
  * `\label` now works within parnote text; `\ref` returns the parnote label, `\pageref` returns the page where the note *text* is set, and `\parnoteref` returns the parnote label formatted as a mark.
- * Implemented the system for separators between multiple foornotes from `footmisc` and `manyfoot` and added package option `nomultiple` to disable.
+ * Implemented the system for separators between multiple footnotes from `footmisc` and `manyfoot` and added package option `nomultiple` to disable.
  * Internal: The package now uses a single counter (`\c@parnotemark`) for marks.
 
 **Revision 1: Released on Jan 3 2012**
