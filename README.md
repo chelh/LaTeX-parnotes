@@ -4,11 +4,13 @@ parnotes
 The parnotes package adds a new note type, `\parnote`. Parnotes are set as normal, running paragraphs and may be placed two ways: (1) automatically, at the end of the paragraph, or (2) manually, using the `\parnotes` command.
 
 To place parnotes automatically after every paragraph, use the `autopn` environment:
+
     \begin{autopn}
     Text\parnote{parnote}
 
     Text
     \end{autopn}
+    
 If environments are used within `autopn`, another `autopn` environment must be nested within them. To place notes elsewhere, use the `\parnotes` command.
 
 For more details, read the project documentation in `parnotes.pdf`.
