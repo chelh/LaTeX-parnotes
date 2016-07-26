@@ -1,6 +1,5 @@
 parnotes
 ========
-rev. 2
 
 The parnotes package adds a new note type, `\parnote`. Parnotes are set as normal, running paragraphs and may be placed two ways: (1) automatically, at the end of the paragraph, or (2) manually, using the `\parnotes` command.
 
