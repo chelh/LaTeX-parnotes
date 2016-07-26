@@ -3,8 +3,8 @@
  * Bug fix: `\parnotefmt` no longer changes the font to `\rmfamily` by default.
  * `\parnote` now has an optional argument: a manually-specified parnote mark.
  * `\parnote` now behaves more like `\footnote`:
-    * It respects `\spacefactor`.
-    * It no longer inserts `\unskip`.
+    * It respects `\spacefactor`
+    * It no longer inserts `\unskip`
  * The parnote mark counter may be reset using standard LaTeX macros, e.g., `\setcounter{parnotemark}{5}`
  * `\label` now works within parnote text; `\ref` returns the parnote label, `\pageref` returns the page where the note *text* is set, and `\parnoteref` returns the parnote label formatted as a mark.
  * Implemented the system for separators between multiple footnotes from `footmisc` and `manyfoot` and added package option `nomultiple` to disable.
