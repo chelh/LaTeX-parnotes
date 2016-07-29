@@ -15,17 +15,17 @@ If environments are used within `autopn`, another `autopn` environment must be n
 
 For more details, read the project documentation in `parnotes.pdf`.
 
-Bugs and Source
----------------
-The development repository and the bug tracker for this package are hosted at https://github.com/chelh/LaTeX-parnotes
+Contributing
+------------
+The development repository and the bug tracker for this package are hosted [on GitHub](https://github.com/chelh/LaTeX-parnotes).
 
 License
 -------
-Copyright (c) 2016 Chelsea Hughes
+Copyright &copy; 2016 Chelsea Hughes
 
 This work is distributed under the LaTeX Project Public License, version 1.3 or later, available at http://www.latex-project.org/lppl.txt
 
-I currently maintain this project (comprising `parnotes.sty`, `parnotes.tex`, `README.md`, and the derived file `parnotes.pdf`) and will receive error reports at the project GitHub page (see **Bugs and Source** above).
+I currently maintain this project (comprising `parnotes.sty`, `parnotes.tex`, `README.md`, and the derived file `parnotes.pdf`) and will receive error reports at the project GitHub page (see **Contributing** above).
 
 This package was started due to a question at the TeX Stack Exchange: http://tex.stackexchange.com/questions/34746/
 
