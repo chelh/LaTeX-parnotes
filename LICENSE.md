@@ -1,4 +1,4 @@
-Copyright &copy; 2016 Chelsea Hughes
+Copyright &copy; 2012, 2016 Chelsea Hughes
 
 This work is distributed under the LaTeX Project Public License, version 1.3 or later, available at http://www.latex-project.org/lppl.txt
 
