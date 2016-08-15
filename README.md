@@ -7,7 +7,7 @@ To place parnotes automatically after every paragraph, use the `autopn` environm
 
     \begin{autopn}
     Text\parnote{parnote}
-
+    
     Text
     \end{autopn}
     
