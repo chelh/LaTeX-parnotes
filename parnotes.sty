@@ -15,7 +15,7 @@
 % Thanks to Stack Exchange users Ahmed Musa, Bruno Le Floch, and David Carlisle.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{parnotes}[2016/07/26 rev. 2 Notes after every paragraph, or elsewhere]
+\ProvidesPackage{parnotes}[2016/08/15 rev. 3 Notes after every paragraph, or elsewhere]
 
 %
 % These are the user-modifiable format commands
@@ -165,13 +165,6 @@
     % Redefine \@currentlabel to the parnote label, so \label works
     \g@addto@macro\PN@text{\phantomsection\def\@currentlabel{#1}}%
     \g@addto@macro\PN@text{\parnotemark{#1}\nolinebreak\thinspace#2}%
-}
-
-\long\def\PN@parnote@compat#1{%
-    \parnotemarkfmt{parnotemark}
-    \unless\ifx\PN@text\@empty\g@addto@macro\PN@text{\parnoteintercmd}\fi
-    \g@addto@macro\PN@text{\phantomsection\def\@currentlabel{\arabic{parnotemark}}}%
-    \g@addto@macro\PN@text{\parnotemarkfmt{parnotemark}\nolinebreak\thinspace#1}%
 }
 
 %
