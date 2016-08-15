@@ -188,6 +188,10 @@ instead, \verb+\narrower+ must be placed manually within the new definition for 
 
 \section{Changelog}
 {\raggedright
+\noindent\textbd{Revision 3, released on Aug 15, 2016}
+\begin{itemize}
+\item Bug fix: Use \verb+\protected@edef+ to expand the parnote counter (fixes incompatibility with \textsf{BiocStyle})
+\end{itemize}
 \noindent\textbf{Revision 2, released on Jul 26, 2016}
 \begin{itemize}
 \item \textbf{Breaking change:} You can no longer redefine \verb+\parnotemarkfmt+. Use \verb+\theparnotemark+ and \verb+\parnotecusmarkfmt+ instead. See section~2.2 for details.
