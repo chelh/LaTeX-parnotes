@@ -147,8 +147,8 @@
 \def\PN@parnote@twoargs[#1]#2{\PN@parnote@real{#1}{#2}}
 \def\PN@parnote@onearg#1{%
     % Fully expand the new counter value, as text
-    \begingroup\edef\@x{\endgroup\noexpand\PN@parnote@real%
-                        {\theparnotemark}}\@x{#1}%
+    \begingroup\protected@edef\@x{\endgroup\noexpand\PN@parnote@real%
+                                  {\theparnotemark}}\@x{#1}%
     \global\advance\c@parnotemark\@ne
 }
 \def\PN@gobble@opt@@[#1]#2{}
