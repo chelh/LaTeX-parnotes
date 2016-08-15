@@ -1,3 +1,6 @@
+**Revision 3: Released on Aug 15 2016**
+ * Bug fix: Use `\protected@edef` to expand the parnote counter (fixes incompatibility with `BiocStyle`)
+
 **Revision 2: Released on Jul 26 2016**
  * **Breaking change:** You can no longer redefine `\parnotemarkfmt`. Use `\theparnotemark` and `\parnotecusmarkfmt` instead. See the manual for details.
  * Bug fix: `\parnotefmt` no longer changes the font to `\rmfamily` by default.
