@@ -38,6 +38,7 @@
 \usepackage{listings}
 \lstset{numbers=left,basicstyle={\small\ttfamily},numberstyle={\squelchstyle\color{gray}}}
 \usepackage{booktabs}
+\usepackage{microtype}
 
 \title{The \textsf{parnotes} package\parnote{This is rev.~3, last modified 8/15/2016.}}
 \author{Chelsea Hughes\parnote{See \texttt{parnotes.sty} for copyright and contact details.}}
@@ -188,7 +189,7 @@ instead, \verb+\narrower+ must be placed manually within the new definition for 
 
 \section{Changelog}
 {\raggedright
-\noindent\textbd{Revision 3, released on Aug 15, 2016}
+\noindent\textbf{Revision 3, released on Aug 15, 2016}
 \begin{itemize}
 \item Bug fix: Use \verb+\protected@edef+ to expand the parnote counter (fixes incompatibility with \textsf{BiocStyle})
 \end{itemize}
